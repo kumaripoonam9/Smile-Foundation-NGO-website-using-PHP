@@ -1,0 +1,126 @@
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.covid-relief {
+    background-color: crimson;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 1rem;
+    padding: .75rem 1rem;
+    border-radius: 1.2rem;
+
+}
+
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/************************ blog page ************************/
+
+.dashboard .w3-sidebar {
+    padding: 1rem;
+}
+
+.dashboard .w3-sidebar h3 {
+    background-color: #cfcfda;
+    border-radius: 1rem;
+    color: black;
+}
+
+.dashboard .w3-button:hover {
+    background-color: white !important;
+    border-radius: 1rem !important;
+}
+
+.dashboard .w3-button.btn {
+    border-radius: 1rem !important;
+}
+
+.dashboard .w3-button.btn:hover {
+    border-radius: 1rem !important;
+    background-color: rgb(243, 103, 103) !important;
+}
+
+.dashboard .p-5 {
+    padding: 3rem;
+}
+
+.dashboard section.sub-sec>h2 {
+    color: black;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.dashboard img.profile-img {
+    border-radius: 1rem !important;
+    /* height: fit-content; */
+}
+
+/* .dashboard section.sub-sec table {
+    border-radius: 1rem !important;
+} */
+
+
+
+/************************ blog page ************************/
+
+.blogpage .our-blog .single-blog p {
+    text-align: unset;
+}
+
+
+
+/************************ covid page ************************/
+
+.covid-card.card {
+    border-radius: 2rem;
+    background-color: #2e3f34;
+    box-shadow: 0 2px 6px 0 rgba(134, 134, 150, 0.65), 0 2px 6px 0 rgba(117, 117, 138, 0.54);
+    background-image: url('../images/covidbg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.covid-card .dark-mask {
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 2rem;
+
+}
+
+.covid-card.card input {
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+}
+
+.covid-card form[name=covidForm] .btn-success {
+    background-color: rgb(192, 189, 189);
+    border: none;
+    border-radius: 1rem;
+    color: black;
+}
